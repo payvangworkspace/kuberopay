@@ -173,9 +173,9 @@ export default function Navbar() {
             <div onClick={() => goTo("/company")}>Company</div>
             <div onClick={() => goTo("/pricing")}>Pricing</div>
              <div onClick={() => goTo("/contact-us")}>Contact us</div>
-            <div onClick={() => goTo("/login")}>Login</div>
+            <div onClick={() => window.location.href="https://dashboard.kubergates.com/login"}>Login</div>
 
-            <div className="mobile-cta" onClick={() => goTo("/get-started")}>
+            <div className="mobile-cta" onClick={() => window.location.href="https://dashboard.kubergates.com/signup"}>
               Get Started
             </div>
           </motion.div>
