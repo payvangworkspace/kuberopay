@@ -127,10 +127,10 @@ export default function Navbar() {
 
         {/* DESKTOP CTA */}
         <div className="navbar-cta">
-          <button className="btn-login" onClick={() => goTo("/login")}>
+          <button className="btn-login" onClick={() => window.location.href="https://dashboard.kubergates.com/login"}>
             Login
           </button>
-          <button className="btn-primary" onClick={() => goTo("/get-started")}>
+          <button className="btn-primary" onClick={() => window.location.href="https://dashboard.kubergates.com/signup"}>
             Get Started
           </button>
         </div>

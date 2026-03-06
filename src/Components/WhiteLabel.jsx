@@ -34,7 +34,7 @@ export default function WhiteLabel() {
           </motion.p>
 
           <div className="wl-cta">
-            <button className="btn-primary" onClick={()=>{navigate("/get-started")}}>Get Started</button>
+            <button className="btn-primary" onClick={()=>{window.location.href="https://dashboard.kubergates.com/signup"}}>Get Started</button>
             <button className="btn-outline" onClick={()=>{navigate("/contact-us")}}>Contact Sales</button>
           </div>
 

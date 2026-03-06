@@ -50,6 +50,7 @@ export default function Contact() {
 
         {/* LEFT */}
         <div className="kg-contact-left">
+          <div className="kg-left-inner">
           <h2>Get in Touch</h2>
           <p className="kg-desc">
             We’re here to answer your questions, discuss partnerships,
@@ -66,10 +67,12 @@ export default function Contact() {
             <span>New Delhi, India</span>
           </a>
 
+{/*  
           <a href="tel:+919XXXXXXXXX" className="kg-info kg-link">
             <Phone size={18} />
             <span>+91 9XXXXXXXXX</span>
           </a>
+          */}
 
           <a
             href="mailto:support@kubergates.com"
@@ -78,6 +81,7 @@ export default function Contact() {
             <Mail size={18} />
             <span>support@kubergates.com</span>
           </a>
+          </div>
         </div>
 
         {/* RIGHT */}

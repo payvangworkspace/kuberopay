@@ -3,6 +3,7 @@
   padding-top: 150px;
   padding-bottom: 50px;
   background: #f9fafb;
+  /* border: 2px solid orange; */
 }
 
 .kg-contact-card {
@@ -14,15 +15,39 @@
   grid-template-columns: 1fr 1fr;
   box-shadow: 0 20px 40px rgba(0,0,0,0.06);
   overflow: hidden;
+  /* border: 2px solid red; */
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
 }
 
 .kg-contact-left {
   padding: 40px;
+  /* border: 2px solid yellow; */
+  display: flex;
+   /* background: #f3f4f6; */
+  /* height: 40vh; */
+  
 }
+
+.kg-left-inner {
+  /* border: 2px solid blue; */
+  padding: 20px;
+  border-radius: 12px;
+  /* background: #f3f4f6; */
+  /* height: 20vh; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* align-items: center; */
+
+}
+
 
 .kg-contact-left h2 {
   font-size: 28px;
   margin-bottom: 12px;
+  /* border: 2px solid green; */
 }
 
 .kg-desc {

@@ -36,7 +36,7 @@ const HeroSection = () => {
           </p>
 
           <div className="hero-actions">
-            <button className="btn-primary" onClick={()=>{navigate("/get-started")}}>Get Started</button>
+            <button className="btn-primary" onClick={()=>{window.location.href="https://dashboard.kubergates.com/signup"}}>Get Started</button>
             <button className="btn-secondary" onClick={()=>{navigate("/developers/api-docs")}}>View Documentation</button>
           </div>
 

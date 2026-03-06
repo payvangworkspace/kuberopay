@@ -41,7 +41,7 @@ export default function PaymentGatewayComponent() {
               </p>
 
               <div className="pg-actions">
-                <button className="pg-primary" onClick={()=>{navigate("/get-started")}}>Get Started</button>
+                <button className="pg-primary" onClick={()=>{window.location.href="https://dashboard.kubergates.com/signup"}}>Get Started</button>
                 <button className="pg-secondary" onClick={()=>{navigate("/developers/api-docs")}}>View Docs</button>
               </div>
             </motion.div>

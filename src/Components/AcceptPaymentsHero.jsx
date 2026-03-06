@@ -25,7 +25,7 @@ export default function AcceptPaymentsHero() {
           </p>
 
           <div className="hero-actions">
-            <button className="btn-primary" onClick={()=>{navigate("/get-started")}}>
+            <button className="btn-primary" onClick={()=>{window.location.href="https://dashboard.kubergates.com/signup"}}>
               Create business account <ArrowRight size={18} />
             </button>
             <button className="btn-secondary" onClick={()=>{alert("We are working on it. It will be functional soon.")}}>View live demo</button>

@@ -29,7 +29,7 @@ const PaymentFlowSection = () => {
           </ul>
 
           <div className="payment-actions">
-            <button className="btn-primary pa-btn" onClick={()=>{navigate("/get-started")}}>Get Started</button>
+            <button className="btn-primary pa-btn" onClick={()=>{window.location.href="https://dashboard.kubergates.com/signup"}}>Get Started</button>
             <button className="btn-outline pa-btn" onClick={()=>{navigate("/developers/api-docs")}} >View Documentation</button>
           </div>
         </div>
