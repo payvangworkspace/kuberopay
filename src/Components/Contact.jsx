@@ -51,36 +51,41 @@ export default function Contact() {
         {/* LEFT */}
         <div className="kg-contact-left">
           <div className="kg-left-inner">
-          <h2>Get in Touch</h2>
-          <p className="kg-desc">
-            We’re here to answer your questions, discuss partnerships,
-            or help you get started with KuberGates.
-          </p>
+            <h2>Get in Touch</h2>
+            <p className="kg-desc">
+              We’re here to answer your questions, discuss partnerships,
+              or help you get started with KuberGates.
+            </p>
 
-          <a
-            href="https://www.google.com/maps/search/?api=1&query=New+Delhi+India"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="kg-info kg-link"
-          >
-            <MapPin size={18} />
-            <span>New Delhi, India</span>
-          </a>
+            <a
+              href="https://www.google.com/maps/search/?api=1&query=113+Lakeshore+Rd+West+Suite+163+Mississauga+ON+L5H+1E9+Canada"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="kg-info kg-link"
+            >
+              <MapPin size={18} />
+              <span>
+                113 Lakeshore Rd West, Suite-163 <br />
+                Mississauga ON L5H 1E9 <br />
+                Bifro House, Canada
+              </span>
+            </a>
 
-{/*  
-          <a href="tel:+919XXXXXXXXX" className="kg-info kg-link">
-            <Phone size={18} />
-            <span>+91 9XXXXXXXXX</span>
-          </a>
-          */}
+            {/*
+            <a href="tel:+919XXXXXXXXX" className="kg-info kg-link">
+              <Phone size={18} />
+              <span>+91 9XXXXXXXXX</span>
+            </a>
+            */}
 
-          <a
-            href="mailto:support@kubergates.com"
-            className="kg-info kg-link"
-          >
-            <Mail size={18} />
-            <span>support@kubergates.com</span>
-          </a>
+            <a
+              href="mailto:support@kubergates.com"
+              className="kg-info kg-link"
+            >
+              <Mail size={18} />
+              <span>support@kubergates.com</span>
+            </a>
+
           </div>
         </div>
 
