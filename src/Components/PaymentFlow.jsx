@@ -41,7 +41,7 @@ export default function PaymentFlow() {
           transition={{ duration: 0.7 }}
         >
           <span className="flow-badge">Payment Flow</span>
-          <h2>How KuberGates powers crypto payments</h2>
+          <h2>How KuberoPay powers crypto payments</h2>
           <p>
             A seamless crypto payment infrastructure designed to optimize
             settlements, reduce volatility, and scale your business globally.

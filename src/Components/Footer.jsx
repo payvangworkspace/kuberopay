@@ -16,9 +16,9 @@ export default function Footer() {
 
         {/* BRAND */}
         <div className="kg-footer-brand">
-          <img src={logo} alt="KuberGates Logo" />
+          <img src={logo} alt="KuberoPay Logo" />
           <p>
-            KuberGates is a next‑generation crypto payment infrastructure
+            KuberoPay is a next‑generation crypto payment infrastructure
             enabling global businesses to accept, manage, and scale payments
             securely.
           </p>
@@ -66,7 +66,7 @@ export default function Footer() {
 
       {/* BOTTOM */}
       <div className="kg-footer-bottom">
-        <p>© 2026 KuberGates. All rights reserved.</p>
+        <p>© 2026 KuberoPay. All rights reserved.</p>
         <div>
           <Link to="#">Privacy Policy</Link>
           <Link to="#">Terms of Service</Link>

@@ -44,7 +44,7 @@ export default function GetStarted() {
     Swal.fire({
       title: isLogin ? "Login Successful" : "Account Created",
       text: isLogin
-        ? "Welcome back to KuberGates"
+        ? "Welcome back to KuberoPay"
         : "Your account has been registered successfully.",
       iconHtml: `
         <svg width="44" height="44" viewBox="0 0 24 24" fill="none"
@@ -70,7 +70,7 @@ export default function GetStarted() {
       <div className={styles.layout}>
         {/* LEFT */}
         <div className={styles.left}>
-          <h2>Why Choose KuberGates?</h2>
+          <h2>Why Choose KuberoPay?</h2>
 
           <div className={styles.cards}>
             <div className={styles.card}>
@@ -98,7 +98,7 @@ export default function GetStarted() {
         {/* RIGHT */}
         <div className={styles.right}>
           <div className={styles.formCard}>
-            <img src={logo} alt="KuberGates" />
+            <img src={logo} alt="KuberoPay" />
 
             <h1>{isLogin ? "Welcome Back" : "Create Your Account"}</h1>
 

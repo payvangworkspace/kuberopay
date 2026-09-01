@@ -35,13 +35,13 @@ export default function PaymentGatewayComponent() {
               </h1>
 
               <p>
-                KuberGates enables businesses to accept cards, UPI, net banking,
+                KuberoPay enables businesses to accept cards, UPI, net banking,
                 and international payments with enterprise-grade security and
                 lightning-fast settlements.
               </p>
 
               <div className="pg-actions">
-                <button className="pg-primary" onClick={()=>{window.location.href="https://dashboard.kubergates.com/signup"}}>Get Started</button>
+                <button className="pg-primary" onClick={()=>{window.location.href="https://uatapp.kuberopay.com/signup"}}>Get Started</button>
                 <button className="pg-secondary" onClick={()=>{navigate("/developers/api-docs")}}>View Docs</button>
               </div>
             </motion.div>

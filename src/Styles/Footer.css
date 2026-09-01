@@ -17,7 +17,8 @@
 
 /* BRAND */
 .kg-footer-brand img {
-  width: 160px;
+  width: 180px;
+  height: auto;
   margin-bottom: 14px;
 }
 

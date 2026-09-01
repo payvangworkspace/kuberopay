@@ -25,7 +25,7 @@ export default function AcceptPaymentsHero() {
           </p>
 
           <div className="hero-actions">
-            <button className="btn-primary" onClick={()=>{window.location.href="https://dashboard.kubergates.com/signup"}}>
+            <button className="btn-primary" onClick={()=>{window.location.href="https://uatapp.kuberopay.com/signup"}}>
               Create business account <ArrowRight size={18} />
             </button>
             <button className="btn-secondary" onClick={()=>{alert("We are working on it. It will be functional soon.")}}>View live demo</button>
@@ -41,7 +41,7 @@ export default function AcceptPaymentsHero() {
         <div className="hero-product">
           <div className="checkout-shell">
             <div className="checkout-top">
-              <img src={kuberLogo} alt="KuberGates" className="ac-logo" />
+              <img src={kuberLogo} alt="KuberoPay" className="ac-logo" />
               <span>Secure Checkout</span>
             </div>
 

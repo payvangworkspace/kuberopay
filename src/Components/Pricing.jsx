@@ -37,7 +37,7 @@ export default function Pricing() {
             <li>✓ Email & chat support</li>
           </ul>
 
-          <button className="btn-plan" onClick={()=>{window.location.href="https://dashboard.kubergates.com/signup"}}>Start Accepting Payments</button>
+          <button className="btn-plan" onClick={()=>{window.location.href="https://uatapp.kuberopay.com/signup"}}>Start Accepting Payments</button>
         </div>
 
         {/* ENTERPRISE */}

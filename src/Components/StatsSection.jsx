@@ -7,7 +7,7 @@ const StatsSection = () => {
       <div className="stats-header">
         <h3>Transaction Growth</h3>
         <p>
-          Real-time crypto payment volume across the Kuber Gates network
+          Real-time crypto payment volume across the KuberoPay network
         </p>
       </div>
 

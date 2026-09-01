@@ -36,7 +36,7 @@ export default function CryptoCTA() {
         <motion.button
           className="cta-btn"
           whileHover={{ scale: 1.05 }}
-          whileTap={{ scale: 0.97 }} onClick={()=>{window.location.href="https://dashboard.kubergates.com/signup"}}
+          whileTap={{ scale: 0.97 }} onClick={()=>{window.location.href="https://uatapp.kuberopay.com/signup"}}
         >
           Get Started
         </motion.button>

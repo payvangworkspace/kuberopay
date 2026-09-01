@@ -70,7 +70,8 @@
 }
 
 .formCard img {
-  width: 80px;
+  width: 168px;
+  height: auto;
   margin-bottom: 1rem;
 }
 
@@ -182,7 +183,7 @@
   }
 
   .formCard img {
-    width: 70px;
+    width: 140px;
   }
 
   .formCard h1 {
@@ -215,6 +216,6 @@
   }
 
   .formCard img {
-    width: 64px;
+    width: 120px;
   }
 }

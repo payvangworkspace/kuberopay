@@ -22,7 +22,7 @@ export default function CheckoutScaleSection() {
           </h2>
 
           <p className="scale-subtitle">
-            KuberGates delivers a production-ready checkout engineered for
+            KuberoPay delivers a production-ready checkout engineered for
             high-volume payments, global reach, and enterprise-grade reliability —
             without custom UI work.
           </p>

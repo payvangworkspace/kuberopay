@@ -16,7 +16,7 @@ const PaymentFlowSection = () => {
           </h2>
 
           <p className="f-subtitle" style={{margin:"25px 3px"}}>
-            Kuber Gates enables businesses to accept crypto payments globally
+            KuberoPay enables businesses to accept crypto payments globally
             with enterprise-grade security and seamless integration.
           </p>
 
@@ -29,7 +29,7 @@ const PaymentFlowSection = () => {
           </ul>
 
           <div className="payment-actions">
-            <button className="btn-primary pa-btn" onClick={()=>{window.location.href="https://dashboard.kubergates.com/signup"}}>Get Started</button>
+            <button className="btn-primary pa-btn" onClick={()=>{window.location.href="https://uatapp.kuberopay.com/signup"}}>Get Started</button>
             <button className="btn-outline pa-btn" onClick={()=>{navigate("/developers/api-docs")}} >View Documentation</button>
           </div>
         </div>
@@ -37,7 +37,7 @@ const PaymentFlowSection = () => {
         {/* RIGHT MOCK CARD */}
         <div className="payment-right">
           <div className="payment-mock">
-            <h4>Kuber Gates Payment</h4>
+            <h4>KuberoPay Payment</h4>
 
             <div className="step active">1. Choose Asset</div>
             <div className="input-box">USDT (TRC20)</div>

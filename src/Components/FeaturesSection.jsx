@@ -68,7 +68,7 @@ const FeaturesSection = () => {
     <section className="t-features-section">
       <div className="t-container">
         <h2 className="t-section-title">
-          Why Choose <span>KuberGates</span>
+          Why Choose <span>KuberoPay</span>
         </h2>
         <p className="t-section-subtitle">
           A secure and scalable crypto payment infrastructure built for modern

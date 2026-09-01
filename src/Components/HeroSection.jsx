@@ -30,13 +30,13 @@ const HeroSection = () => {
           </h1>
 
           <p>
-            Kuber Gates is a premium crypto payment gateway enabling
+            KuberoPay is a premium crypto payment gateway enabling
             businesses to accept, manage, and settle cryptocurrency
             payments worldwide with enterprise-grade security.
           </p>
 
           <div className="hero-actions">
-            <button className="btn-primary" onClick={()=>{window.location.href="https://dashboard.kubergates.com/signup"}}>Get Started</button>
+            <button className="btn-primary" onClick={()=>{window.location.href="https://uatapp.kuberopay.com/signup"}}>Get Started</button>
             <button className="btn-secondary" onClick={()=>{navigate("/developers/api-docs")}}>View Documentation</button>
           </div>
 

@@ -23,7 +23,7 @@ const SecuritySection = () => {
           </h2>
 
           <p className="security-subtitle">
-            KuberGates is designed with a security-first approach to protect
+            KuberoPay is designed with a security-first approach to protect
             payments, data, and business operations at every stage.
           </p>
 

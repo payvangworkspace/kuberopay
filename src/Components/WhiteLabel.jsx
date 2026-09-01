@@ -29,12 +29,12 @@ export default function WhiteLabel() {
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
           >
-            Launch your branded crypto payment solution on KuberGates’
+            Launch your branded crypto payment solution on KuberoPay’s
             secure, compliant, and globally scalable infrastructure.
           </motion.p>
 
           <div className="wl-cta">
-            <button className="btn-primary" onClick={()=>{window.location.href="https://dashboard.kubergates.com/signup"}}>Get Started</button>
+            <button className="btn-primary" onClick={()=>{window.location.href="https://uatapp.kuberopay.com/signup"}}>Get Started</button>
             <button className="btn-outline" onClick={()=>{navigate("/contact-us")}}>Contact Sales</button>
           </div>
 
@@ -90,7 +90,7 @@ export default function WhiteLabel() {
       {/* ================= WHY ================= */}
       <section className="wl-why">
         <div className="wl-section-inner">
-          <h2>Why Choose KuberGates</h2>
+          <h2>Why Choose KuberoPay</h2>
 
           <ul className="why-grid">
             {[

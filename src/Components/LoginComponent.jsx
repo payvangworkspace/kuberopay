@@ -18,12 +18,12 @@ const LoginComponent = () => {
 
         {/* LOGO */}
         <div className="log-kg-logo">
-          <img src={logo} alt="Kuber Gates Logo" />
+          <img src={logo} alt="KuberoPay Logo" />
         </div>
 
         <h2>Welcome back</h2>
         <p className="log-kg-subtitle">
-          Sign in to your Kuber Gates dashboard
+          Sign in to your KuberoPay dashboard
         </p>
 
         <form onSubmit={handleSubmit}>

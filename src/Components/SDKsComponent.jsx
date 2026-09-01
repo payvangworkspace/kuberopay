@@ -109,8 +109,8 @@ export default function SDKsComponent() {
             {/* CODE */}
             <div className="sdk-code">
               <code>
-                npm install @kubergates/sdk<br /><br />
-                {`const client = new KuberGates({ apiKey: "API_KEY" });`}<br />
+                npm install @kuberopay/sdk<br /><br />
+                {`const client = new KuberoPay({ apiKey: "API_KEY" });`}<br />
                 {`await client.payments.create({ amount: 1000, currency: "USD" });`}
               </code>
             </div>

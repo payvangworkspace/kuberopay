@@ -54,7 +54,7 @@ export default function Contact() {
             <h2>Get in Touch</h2>
             <p className="kg-desc">
               We’re here to answer your questions, discuss partnerships,
-              or help you get started with KuberGates.
+              or help you get started with KuberoPay.
             </p>
 
             <a
@@ -79,11 +79,11 @@ export default function Contact() {
             */}
 
             <a
-              href="mailto:support@kubergates.com"
+              href="mailto:support@kuberopay.com"
               className="kg-info kg-link"
             >
               <Mail size={18} />
-              <span>support@kubergates.com</span>
+              <span>support@kuberopay.com</span>
             </a>
 
           </div>

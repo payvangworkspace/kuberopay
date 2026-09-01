@@ -14,7 +14,7 @@ const accordionData = [
   },
   {
     title: "Hosted checkout",
-    description: "Accept payments using a KuberGates-hosted checkout page without building frontend logic.",
+    description: "Accept payments using a KuberoPay-hosted checkout page without building frontend logic.",
     mockup: "hosted" // Maps to third image
   },
   {
@@ -135,7 +135,7 @@ const PaymentGatewaySection = () => {
             </div>
 
             <div className="kg-widget-body">
-              <div className="kg-brand">KuberGates</div>
+              <div className="kg-brand">KuberoPay</div>
               
               <div className="kg-mockup-container">
                 {getMockupContent(hoveredMockup)}
@@ -143,7 +143,7 @@ const PaymentGatewaySection = () => {
 
               {hoveredMockup === "invoices" && (
                 <>
-                  <button className="kg-pay-btn">Pay with KuberGates</button>
+                  <button className="kg-pay-btn">Pay with KuberoPay</button>
                   <div className="kg-divider">OR</div>
                   <button className="kg-wallet-btn">Wallet Connect</button>
                 </>
