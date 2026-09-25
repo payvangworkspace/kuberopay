@@ -1,18 +1,13 @@
-import React from 'react'
-import Navbar from '../Components/Navbar'
-import LoginComponent from '../Components/LoginComponent'
-import SecurityTransparency from '../Components/SecurityTransparency'
-import Footer from '../Components/Footer'
+import { useEffect } from 'react'
+
+const APP_LOGIN_URL = 'https://app.kuberopay.com/login'
 
 const Login = () => {
-  return (
-    <div>
-      <Navbar/>
-      <LoginComponent/>
-      <SecurityTransparency/>
-      <Footer/>
-    </div>
-  )
+  useEffect(() => {
+    window.location.replace(APP_LOGIN_URL)
+  }, [])
+
+  return null
 }
 
 export default Login

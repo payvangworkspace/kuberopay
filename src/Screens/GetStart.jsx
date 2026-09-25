@@ -1,17 +1,11 @@
-import React from 'react'
-import Navbar from '../Components/Navbar'
-import GetStarted from '../Components/GetStarted'
-import CryptoCTA from '../Components/CryptoCTA'
-import Footer from '../Components/Footer'
-export const GetStart = () => {
-  return (
-    <div>
-    
-    <Navbar/>
-    <GetStarted/>
-    <CryptoCTA/>
-    <Footer/>
+import { useEffect } from 'react'
 
-    </div>
-  )
+const APP_LOGIN_URL = 'https://app.kuberopay.com/login'
+
+export const GetStart = () => {
+  useEffect(() => {
+    window.location.replace(APP_LOGIN_URL)
+  }, [])
+
+  return null
 }

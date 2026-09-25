@@ -41,7 +41,7 @@ export default function PaymentGatewayComponent() {
               </p>
 
               <div className="pg-actions">
-                <button className="pg-primary" onClick={()=>{window.location.href="https://uatapp.kuberopay.com/signup"}}>Get Started</button>
+                <button className="pg-primary" onClick={()=>{window.location.href="https://app.kuberopay.com/login"}}>Get Started</button>
                 <button className="pg-secondary" onClick={()=>{navigate("/developers/api-docs")}}>View Docs</button>
               </div>
             </motion.div>

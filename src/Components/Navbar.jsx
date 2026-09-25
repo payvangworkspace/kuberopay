@@ -127,10 +127,10 @@ export default function Navbar() {
 
         {/* DESKTOP CTA */}
         <div className="navbar-cta">
-          <button className="btn-login" onClick={() => window.location.href="https://uatapp.kuberopay.com/login"}>
+          <button className="btn-login" onClick={() => window.location.href="https://app.kuberopay.com/login"}>
             Login
           </button>
-          <button className="btn-primary" onClick={() => window.location.href="https://uatapp.kuberopay.com/signup"}>
+          <button className="btn-primary" onClick={() => window.location.href="https://app.kuberopay.com/login"}>
             Get Started
           </button>
         </div>
@@ -173,9 +173,9 @@ export default function Navbar() {
             <div onClick={() => goTo("/company")}>Company</div>
             <div onClick={() => goTo("/pricing")}>Pricing</div>
              <div onClick={() => goTo("/contact-us")}>Contact us</div>
-            <div onClick={() => window.location.href="https://uatapp.kuberopay.com/login"}>Login</div>
+            <div onClick={() => window.location.href="https://app.kuberopay.com/login"}>Login</div>
 
-            <div className="mobile-cta" onClick={() => window.location.href="https://uatapp.kuberopay.com/signup"}>
+            <div className="mobile-cta" onClick={() => window.location.href="https://app.kuberopay.com/login"}>
               Get Started
             </div>
           </motion.div>

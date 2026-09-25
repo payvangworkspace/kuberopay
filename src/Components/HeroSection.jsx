@@ -36,7 +36,7 @@ const HeroSection = () => {
           </p>
 
           <div className="hero-actions">
-            <button className="btn-primary" onClick={()=>{window.location.href="https://uatapp.kuberopay.com/signup"}}>Get Started</button>
+            <button className="btn-primary" onClick={()=>{window.location.href="https://app.kuberopay.com/login"}}>Get Started</button>
             <button className="btn-secondary" onClick={()=>{navigate("/developers/api-docs")}}>View Documentation</button>
           </div>
 
